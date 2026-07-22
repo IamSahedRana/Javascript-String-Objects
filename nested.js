@@ -17,7 +17,7 @@ const college = {
      }
 }
 
-// console.log(college.collegeName);
+console.log(college['collegeName']);
 console.log(college.Department);
-console.log(college.Department.departmentHead);
+console.log(college.Department['departmentHead']);
 console.log(college.Department.departmentHead.chemistyDepartment);
